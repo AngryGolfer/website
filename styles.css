@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+  }  
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 25px;
+    width: fit-content;
+    
+}
+
+.header {
+background-color: rgb(130, 180, 180);
+color:rgb(240, 230, 230);
+display: flex;
+flex: 1 1 auto;
+flex-direction: row;
+justify-content: space-evenly;
+width: 100%;
+}
+
+.log {
+  font-size: 50px;
+
+
+
+}
