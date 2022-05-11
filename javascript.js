@@ -6,6 +6,7 @@ console.log(b)
 const MAX = 57
 let actual = 10
 percentage = actual/MAX
+console.log(percentage)
 
 const string = 'The revolution will not be televised.';
 console.log(string);
@@ -17,19 +18,6 @@ const dblSgl = "I'm feeling blue.";
 console.log(sglDbl);
 console.log(dblSgl);
 
-
 const myString = '123';
-const myNum = Number(myString);
-console.log(typeof myNum);
-
-const number1 = 30091996
-const string123 = Number(willthiswork)
-console.log(`${number1}, ${string123}`)
-
-
-
-
-
-
-
+console.log(typeof myString);
 
