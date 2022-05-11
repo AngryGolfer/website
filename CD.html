@@ -18,9 +18,12 @@
 
 <button onclick="myFunction()">Try it</button>
 <button onclick="mysecondFunction()">Try switching it back</button>
-
+<button onclick="capitalise()">Capitalise</button>
+<button onclick="decapitalise()">Decapitalise</button>
 <p id="demo">Please visit Microsoft!</p>
-
+<p id="display">uyfuyf</p>
+<p id="concat"></p>
+<p id="split"></p>
 <script>
 function myFunction() {
   let text = document.getElementById("demo").innerHTML;
@@ -34,7 +37,26 @@ function myFunction() {
   text.replace("W3Schools","Microsoft");
 }
 </script>
+<script>
+let name1 = "First" ;
+let surname = "Surname" ;
+let fullname = name1.concat(" ",surname);
+document.getElementById("concat").innerHTML = fullname;
+document.getElementById("display").innerHTML = 
+surname.charAt(5);
+document.getElementById("split").innerHTML = 
+fullname.split(" ");
+</script>
 
-  
-  <script src="javascript.js"></script>
+<script>
+let text = "Hello";
+const myArr = text.split("");
+
+text = "";
+for (let i = 0; i < myArr.length; i++) {
+  text += myArr[i] + "<br>"
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
 </body>
