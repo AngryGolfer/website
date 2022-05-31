@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>My First Webpage</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="javascript.js" href="javascript.js">
   </head>
 </html>
 <body>
@@ -24,6 +25,7 @@
 <p id="display">uyfuyf</p>
 <p id="concat"></p>
 <p id="split"></p>
+<p id="isequal"></p>
 <script>
 function myFunction() {
   let text = document.getElementById("demo").innerHTML;
@@ -58,5 +60,39 @@ for (let i = 0; i < myArr.length; i++) {
 }
 document.getElementById("demo").innerHTML = text;
 </script>
+
+
+<script>
+  let superstring= "Newcastle united football club"
+  superstring.toUpperCase();
+  console.log(superstring);
+  console.log(superstring.length)
+
+</script>
+<script>
+let value = prompt("type your favourite number, positive or negative!")
+if (value > 0) {
+  alert(1);
+}
+if else ( < 0 ){
+  alert (-1);
+}
+else (===0){
+alert(0);
+}
+
+"use strict";
+
+let value = prompt('Type a number', 0);
+
+if (value > 0) {
+  alert( 1 );
+} else if (value < 0) {
+  alert( -1 );
+} else {
+  alert( 0 );
+}
+</script>
+
 
 </body>
